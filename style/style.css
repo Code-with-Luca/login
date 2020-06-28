@@ -1,5 +1,5 @@
 .form {
-  margin-left: 35%;
+  margin-left: 43%;
   width: 290px;
   background-color: black;
   height: 300px;
@@ -89,12 +89,11 @@
   color: #ffff;
   background-color: rgba(204, 56, 19, 0.87);
   border: none;
-  border-radius: 3px;
 }
 
 @media screen and (min-width: 640px) {
-  .form .form {
-    margin-left: 40%;
+  .form {
+    margin-left: 30%;
   }
 }
 

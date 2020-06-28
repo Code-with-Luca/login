@@ -53,11 +53,10 @@
     color: $primary;
     background-color: rgba(204, 56, 19, 0.87);
     border: none;
-   
   }
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (max-width: 500px) {
   .form {
     margin-left: 30%;
   }

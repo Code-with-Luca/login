@@ -1,0 +1,20 @@
+// Variables
+$primary: #ffff;
+$font: "Trebuchet MS", Helvetica, sans-serif;
+
+@import "form";
+.title {
+  //code for .title
+  align-items: center;
+
+  h1 {
+    text-align: center;
+    font-family: $font;
+    font-weight: lighter;
+    font-size: 50px;
+  }
+}
+
+body {
+  font-family: $font;
+}

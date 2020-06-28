@@ -1,0 +1,117 @@
+.form {
+  margin-left: 35%;
+  width: 290px;
+  background-color: black;
+  height: 300px;
+  opacity: 0.76;
+}
+
+.form h3 {
+  margin-left: 35%;
+  color: #ffff;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: x-large;
+  padding-top: 2px;
+}
+
+.form .up-label label {
+  color: #ffff;
+  padding-left: 10px;
+}
+
+.form label {
+  color: #ffff;
+}
+
+.form input:not([type="checkbox"]) {
+  color: white;
+  width: 90%;
+  margin-left: 6.5px;
+  height: 30px;
+  border: none;
+  background-color: black;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.835);
+}
+
+.form input:not([type="checkbox"])::-webkit-input-placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.form input:not([type="checkbox"]):-ms-input-placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.form input:not([type="checkbox"])::-ms-input-placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.form input:not([type="checkbox"])::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.form input:not([type="checkbox"]):focus {
+  height: 35px;
+  background-color: rgba(204, 56, 19, 0.87);
+  color: white;
+  border: none;
+}
+
+.form input:not([type="checkbox"]):focus::-webkit-input-placeholder {
+  color: white;
+}
+
+.form input:not([type="checkbox"]):focus:-ms-input-placeholder {
+  color: white;
+}
+
+.form input:not([type="checkbox"]):focus::-ms-input-placeholder {
+  color: white;
+}
+
+.form input:not([type="checkbox"]):focus::placeholder {
+  color: white;
+}
+
+.form .re {
+  margin-left: 46%;
+  padding-left: 2px;
+}
+
+.form button {
+  margin: 5px;
+  width: 96%;
+  height: 30px;
+  font-size: large;
+  color: #ffff;
+  background-color: rgba(204, 56, 19, 0.87);
+  border: none;
+  border-radius: 3px;
+}
+
+@media screen and (min-width: 640px) {
+  .form .form {
+    margin-left: 40%;
+  }
+}
+
+.title {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title h1 {
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 50px;
+}
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
